@@ -6,14 +6,24 @@ function Pairing(judge, stacker) {
     this.stacker = stacker;
 }
 
-var pair1 = new Pairing("LOK", "CED");
+/* var pair1 = new Pairing("LOK", "CED");
 var pair2 = new Pairing("CED", "JT");
 var pair3 = new Pairing("JT", "CJH");
 var pair4 = new Pairing("CJH", "LOK");
 var pair5 = new Pairing("KN", "KX");
 var pair6 = new Pairing("KX", "KN");
 var pair7 = new Pairing("KSY", "JAY");
-var pair8 = new Pairing("JAY", "KSY");
+var pair8 = new Pairing("JAY", "KSY"); */
+
+var pair1 = new Pairing("JX", "LSH");
+var pair2 = new Pairing("LSH", "ELI");
+var pair3 = new Pairing("ELI", "LJY");
+var pair4 = new Pairing("CUR", "TWN");
+var pair5 = new Pairing("RYD", "JZ");
+var pair6 = new Pairing("JZ", "RYD");
+var pair7 = new Pairing("TWN", "JZ");
+var pair8 = new Pairing("LJY", "RYD");
+
 /* var pair9 = new Pairing("", "");
 var pair10 = new Pairing("", ""); */
 
@@ -22,12 +32,15 @@ var pairArr = [pair1, pair2, pair3, pair4, pair5, pair6, pair7, pair8];
 /* var stu = ["LXR", "TJY", "LK", "SZF", "JV", "JL", "JHA", "H"];
 var stu2 = ["LXR", "TJY", "LK", "SZF", "JV", "JL", "JHA", "H"]; */
 
-var stu = ["LOK", "CJH", "CED", "KX", "KN", "JT", "KSY", "JL"];
-var stu2 = ["LOK", "CJH", "CED", "KX", "KN", "JT", "KSY", "JL"];
+/* var stu = ["LOK", "CJH", "CED", "KX", "KN", "JT", "KSY", "JL"];
+var stu2 = ["LOK", "CJH", "CED", "KX", "KN", "JT", "KSY", "JL"]; */
+
+var stu = ["JX", "JZ", "TWN", "LJY", "LSH", "ELI", "CUR", "RYD", "CT"];
+var stu2 = ["JX", "JZ", "TWN", "LJY", "LSH", "ELI", "CUR", "RYD", "CT"];
 
 var allEvents = ["333Prelim", "333Final", "363Prelim", "363Final", "CyclePrelim", "CycleFinal"];
 
-var assignment = "KSY";
+var assignment = "CUR";
 var judgeH1 = document.getElementById("judgeH1");
 var stackerH1 = document.getElementById("stackerH1");
 var routineH1 = document.getElementById("routineH1");
@@ -109,6 +122,8 @@ const promptMsg = () => {
         nickname = 'JT'
     } else if (nick === '6139') {
         nickname = 'KSY'
+    } else if (nick === '2318') {
+        nickname = 'CT'
     } else {
         alert("Wrong pin number!");
         promptMsg();

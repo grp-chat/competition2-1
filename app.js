@@ -95,7 +95,7 @@ var objSZF = new Person("SZF", 0, 0, 0, 0, false); */
 
 //var objUsers = [objTJY, objLXR, objJL, objLK, objJHA, objSZF];
 
-var stacker1 = new Stacker("LOK", "333", 0, 0, 0, 0, 0, 0);
+/* var stacker1 = new Stacker("LOK", "333", 0, 0, 0, 0, 0, 0);
 var stacker2 = new Stacker("CJH", "333", 0, 0, 0, 0, 0, 0);
 var stacker3 = new Stacker("CED", "333", 0, 0, 0, 0, 0, 0);
 var stacker4 = new Stacker("KX", "333", 0, 0, 0, 0, 0, 0);
@@ -104,9 +104,20 @@ var stacker6 = new Stacker("JT", "333", 0, 0, 0, 0, 0, 0);
 var stacker7 = new Stacker("JL", "333", 0, 0, 0, 0, 0, 0);
 var stacker8 = new Stacker("--", "333", 0, 0, 0, 0, 0, 0);
 var stacker9 = new Stacker("--", "333", 0, 0, 0, 0, 0, 0);
+var stacker10 = new Stacker("--", "333", 0, 0, 0, 0, 0, 0); */
+
+var stacker1 = new Stacker("JX", "333", 0, 0, 0, 0, 0, 0);
+var stacker2 = new Stacker("JZ", "333", 0, 0, 0, 0, 0, 0);
+var stacker3 = new Stacker("TWN", "333", 0, 0, 0, 0, 0, 0);
+var stacker4 = new Stacker("LJY", "333", 0, 0, 0, 0, 0, 0);
+var stacker5 = new Stacker("LSH", "333", 0, 0, 0, 0, 0, 0);
+var stacker6 = new Stacker("ELI", "333", 0, 0, 0, 0, 0, 0);
+var stacker7 = new Stacker("CUR", "333", 0, 0, 0, 0, 0, 0);
+var stacker8 = new Stacker("RYD", "333", 0, 0, 0, 0, 0, 0);
+var stacker9 = new Stacker("--", "333", 0, 0, 0, 0, 0, 0);
 var stacker10 = new Stacker("--", "333", 0, 0, 0, 0, 0, 0);
 
-var stacker11 = new Stacker("KSY", "333", 0, 0, 0, 0, 0, 0);
+var stacker11 = new Stacker("CT", "333", 0, 0, 0, 0, 0, 0);
 
 var allStackers = [stacker1, stacker2, stacker3, stacker4, stacker5, 
     stacker6, stacker7, stacker8, stacker9, stacker10];

@@ -179,6 +179,8 @@ const promptMsg = () => {
         nickname = 'JT'
     } else if (nick === '6139') {
         nickname = 'KSY'
+    } else if (nick === '2318') {
+        nickname = 'CT'
     } else {
         alert("Wrong pin number!");
         promptMsg();
