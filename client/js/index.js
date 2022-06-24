@@ -18,11 +18,11 @@ var pair8 = new Pairing("JAY", "KSY"); */
 var pair1 = new Pairing("JX", "LSH");
 var pair2 = new Pairing("LSH", "ELI");
 var pair3 = new Pairing("ELI", "LJY");
-var pair4 = new Pairing("CUR", "TWN");
-var pair5 = new Pairing("RYD", "JZ");
+var pair4 = new Pairing("LJY", "TWN");
+var pair5 = new Pairing("TWN", "JZ");
 var pair6 = new Pairing("JZ", "RYD");
-var pair7 = new Pairing("TWN", "JZ");
-var pair8 = new Pairing("LJY", "RYD");
+var pair7 = new Pairing("RYD", "JX");
+var pair8 = new Pairing("CUR", "CT");
 
 /* var pair9 = new Pairing("", "");
 var pair10 = new Pairing("", ""); */
@@ -459,7 +459,7 @@ function appendMessage(message) {
 }
 
 function validOrNot(result) {
-    if (result < 1.5 || result > 999.999) {
+    if (result < 1.5 || result > 99999) {
         alert("Invalid result");
         result = 0;
     }
