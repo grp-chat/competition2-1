@@ -20,7 +20,7 @@ var pair2 = new Pairing("LSH", "ELI");
 var pair3 = new Pairing("ELI", "LJY");
 var pair4 = new Pairing("LJY", "TWN");
 var pair5 = new Pairing("TWN", "JZ");
-var pair6 = new Pairing("JZ", "RYD");
+var pair6 = new Pairing("JZ", "JX");
 var pair7 = new Pairing("RYD", "JX");
 var pair8 = new Pairing("CUR", "CT");
 
