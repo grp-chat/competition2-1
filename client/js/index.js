@@ -24,6 +24,7 @@ var pair6 = new Pairing("JZ", "JX");
 var pair7 = new Pairing("RYD", "JX");
 var pair8 = new Pairing("CUR", "CT");
 
+
 /* var pair9 = new Pairing("", "");
 var pair10 = new Pairing("", ""); */
 
